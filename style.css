@@ -14,9 +14,7 @@ body {
     color: white;
     font-size: 24px;
     font-family: 'Marcellus', 'serif'; }
-    @media screen and (max-width: 600px) {
-      body #logo h1 {
-        font-size: 18px; } }
+    
   body #logo h2 {
     left: 30px;
     top: 225px;
@@ -24,9 +22,7 @@ body {
     color: white;
     font-size: 15px;
     font-family: 'monospace'; }
-    @media screen and (max-width: 600px) {
-      body #logo h2 {
-        font-size: 12px; } }
+    
   body circles {
     width: 0;
     height: 0;
