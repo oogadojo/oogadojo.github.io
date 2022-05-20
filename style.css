@@ -1,0 +1,54 @@
+html, body {
+  height: 100%; }
+
+body {
+  background-color: #000000;
+  overflow: hidden;
+  cursor: not-allowed; }
+  body * {
+    position: absolute; }
+  body #logo h1 {
+    left: 30px;
+    top: 175px;
+    width: 600px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Marcellus', 'serif'; }
+    @media screen and (max-width: 600px) {
+      body #logo h1 {
+        font-size: 18px; } }
+  body #logo h2 {
+    left: 30px;
+    top: 225px;
+    width: 1000px;
+    color: white;
+    font-size: 15px;
+    font-family: 'monospace'; }
+    @media screen and (max-width: 600px) {
+      body #logo h2 {
+        font-size: 12px; } }
+  body circles {
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    -webkit-animation: spin 120s infinite linear;
+    animation: spin 120s infinite linear; }
+    body circles circle {
+      border-radius: 50%/50%;
+      border: 2px solid rgba(207, 207, 207, 0.2);
+      -webkit-transition: 0.4s 0s ease-in-out;
+      transition: 0.4s 0s ease-in-out; }
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotateZ(0deg); }
+  100% {
+    -webkit-transform: rotateZ(360deg); } }
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+/*# sourceMappingURL=style.css.map */
