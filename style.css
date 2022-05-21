@@ -7,22 +7,40 @@ body {
   cursor: not-allowed; }
   body * {
     position: absolute; }
+  body #logo img {
+    left: 25px; }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      body #logo img {
+        max-width: 500px;
+        max-height: 500px; } }
   body #logo h1 {
     left: 30px;
-    top: 175px;
-    width: 600px;
+    top: 250px;
+    width: 2000px;
     color: white;
-    font-size: 24px;
+    font-size: 48px;
     font-family: 'Marcellus', 'serif'; }
-    
+    @media screen and (max-width: 400px) {
+      body #logo h1 {
+        font-size: 64px;
+        width: 2000px; } }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      body #logo h1 {
+        font-size: 64px; } }
   body #logo h2 {
     left: 30px;
-    top: 225px;
+    top: 350px;
     width: 1000px;
     color: white;
     font-size: 15px;
     font-family: 'monospace'; }
-    
+    @media screen and (max-width: 400px) {
+      body #logo h2 {
+        font-size: 100px;
+        width: 2000px; } }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      body #logo h2 {
+        font-size: 48px; } }
   body circles {
     width: 0;
     height: 0;
