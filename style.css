@@ -27,7 +27,7 @@ body {
         overflow-wrap: break-word; } }
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
       body #logo h1 {
-        font-size: 64px; } }
+        font-size: 48px; } }
   body #logo h2 {
     left: 30px;
     top: 350px;
@@ -42,7 +42,7 @@ body {
         overflow-wrap: break-word; } }
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
       body #logo h2 {
-        font-size: 48px; } }
+        font-size: 32px; } }
   body circles {
     width: 0;
     height: 0;
