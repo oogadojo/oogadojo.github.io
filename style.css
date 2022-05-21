@@ -23,7 +23,8 @@ body {
     @media screen and (max-width: 400px) {
       body #logo h1 {
         font-size: 64px;
-        width: 2000px; } }
+        width: 2000px;
+        overflow-wrap: break-word; } }
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
       body #logo h1 {
         font-size: 64px; } }
@@ -37,7 +38,8 @@ body {
     @media screen and (max-width: 400px) {
       body #logo h2 {
         font-size: 100px;
-        width: 2000px; } }
+        width: 2000px;
+        overflow-wrap: break-word; } }
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
       body #logo h2 {
         font-size: 48px; } }
