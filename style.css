@@ -51,6 +51,7 @@ body {
   body #logo h2 button {
     top: 60px;
     width: 150px;
+    color: black;
   }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     body #logo h2 button{
