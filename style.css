@@ -31,7 +31,7 @@ body {
   body #logo h2 {
     left: 30px;
     top: 350px;
-    width: 1000px;
+    width: 500px;
     color: white;
     font-size: 15px;
     font-family: 'monospace'; }
@@ -43,6 +43,11 @@ body {
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
       body #logo h2 {
         font-size: 32px; } }
+
+  body #logo h2 button {
+    top: 60px;
+    width: 150px;
+  }
   body circles {
     width: 0;
     height: 0;
