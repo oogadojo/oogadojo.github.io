@@ -12,7 +12,7 @@ body {
     position: relative;
   }
   body #logo img {
-    left: 25px; }
+    left: 20px; }
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
       body #logo img {
         max-width: 500px;
