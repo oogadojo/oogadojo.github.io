@@ -7,6 +7,10 @@ body {
    }
   body * {
     position: absolute; }
+
+  body #logo {
+    position: relative;
+  }
   body #logo img {
     left: 25px; }
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -48,16 +52,11 @@ body {
     top: 60px;
     width: 150px;
   }
-    @media screen and (max-width: 400px) {
-      body #logo h2 button {
-        top: 80px;
-        font-size: 100px;
-        width: 400x;
-        overflow-wrap: break-word; } }
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      body #logo h2 button{
-        top: 100px;
-        font-size: 100px; } }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    body #logo h2 button{
+      top: 100px;
+      width: 400px;
+      font-size: 100px; } }
 
   body circles {
     width: 0;
