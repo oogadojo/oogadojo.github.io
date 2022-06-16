@@ -56,7 +56,14 @@ body {
     body #logo h2 button{
       top: 100px;
       width: 200px;
- } }
+      font-size: 15px;
+ } 
+
+  body #logo h2 {
+    width: 500px;
+  }
+
+}
 
   body circles {
     width: 0;
