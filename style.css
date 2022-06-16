@@ -56,8 +56,9 @@ body {
         overflow-wrap: break-word; } }
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
       body #logo h2 button{
+        top: 100px;
         font-size: 100px; } }
-  }
+
   body circles {
     width: 0;
     height: 0;
