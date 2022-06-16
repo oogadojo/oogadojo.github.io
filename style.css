@@ -55,8 +55,8 @@ body {
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     body #logo h2 button{
       top: 100px;
-      width: 400px;
-      font-size: 100px; } }
+      width: 200px;
+ } }
 
   body circles {
     width: 0;
