@@ -4,7 +4,7 @@ html, body {
 body {
   background-color: #000000;
   overflow: hidden;
-  cursor: not-allowed; }
+   }
   body * {
     position: absolute; }
   body #logo img {
